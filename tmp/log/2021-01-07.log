@@ -1,0 +1,383 @@
+[2021-01-07 20:55:55,818][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0'}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 20:57:56,693][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0'}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 20:57:57,413][    INFO] --- url: /otn/login/init 返回参数为空 (logger.py:61)
+[2021-01-07 20:58:11,779][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0'}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:39,859][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0'}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:40,145][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"汤佳","apptk":"QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0"} (logger.py:61)
+[2021-01-07 21:01:40,149][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:40,388][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"汤佳","sex_code":"M","sex_name":"男","born_date":"1991-10-28 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"4211***********536","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"136****4026","phone_no":"","email":"57*****26@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"2","total_times":"99","index_id":"0","allEncStr":"9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"Y","is_buy_ticket":"N","last_time":"20140311","mobile_check_time":"","email_active_time":"20200918223055","last_update_time":"20200918223055","passenger_uuid":"be4bfbdcb36c82f2a3f630369c70a692f2cd4a2ae6a8ec7b6c228977b8cc113d","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"passenger_name":"贾慕熙","sex_code":"M","sex_name":"男","born_date":"1994-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3603***********020","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"138****1837","phone_no":"","email":"","address":"","postalcode":"","first_letter":"JMX","recordCount":"2","total_times":"99","index_id":"1","allEncStr":"0cb2d65193665fcfd29f0a2b2cd21d0fc53e8e0bb6a0aa5455056c17d12a360f607e03b91c43c53a2ab8f3273871c7aef8271ff8b6b6dd73f6c64c2da1fb3e3cd0796f5baba974f5da04069be9bbcc58","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20180913","mobile_check_time":"20200918223053","email_active_time":"20200918223053","last_update_time":"20200918223053","passenger_uuid":"65be091b3cdd7a6d39eafea36c79a8e0daee1fb9085a59ef34768e847c2de07c","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:43,148][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:44,216][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:45,490][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:45,821][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"汤佳","sex_code":"M","sex_name":"男","born_date":"1991-10-28 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"4211***********536","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"136****4026","phone_no":"","email":"57*****26@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"2","total_times":"99","index_id":"0","allEncStr":"9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"Y","is_buy_ticket":"N","last_time":"20140311","mobile_check_time":"","email_active_time":"20200918223055","last_update_time":"20200918223055","passenger_uuid":"be4bfbdcb36c82f2a3f630369c70a692f2cd4a2ae6a8ec7b6c228977b8cc113d","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"passenger_name":"贾慕熙","sex_code":"M","sex_name":"男","born_date":"1994-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3603***********020","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"138****1837","phone_no":"","email":"","address":"","postalcode":"","first_letter":"JMX","recordCount":"2","total_times":"99","index_id":"1","allEncStr":"0cb2d65193665fcfd29f0a2b2cd21d0fc53e8e0bb6a0aa5455056c17d12a360f607e03b91c43c53a2ab8f3273871c7aef8271ff8b6b6dd73f6c64c2da1fb3e3cd0796f5baba974f5da04069be9bbcc58","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20180913","mobile_check_time":"20200918223053","email_active_time":"20200918223053","last_update_time":"20200918223053","passenger_uuid":"65be091b3cdd7a6d39eafea36c79a8e0daee1fb9085a59ef34768e847c2de07c","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:45,822][    INFO] --- url: /otn/afterNate/chechFace
+入参: OrderedDict([('secretList', '1QZDI6mDu5OxMxMTz%2F73HofukTi3mW1bOVUCU5A%2BthU1yvNnv7iT0sJwdkqnOmi3%2BaGuCSrOLNec%0A2AM5NDUX%2Br9ZS8HXfNoPFGp6G8JPMZN%2Fd1CY39TFra0Dc4qKhO1ijbIFFJtmZ3AIKWfXdRF34rVa%0AHdbAbNVDcO1h1ek%2FuLwmkPnLjID7GMHq9PaDKpLW1HV2JOmmzZfX2NO1ZBYgL1sVOa4skP%2BWCRYq%0An7qWds6z54XXmZmLvO%2B3TAfFJyFu1Awe%2FUZ0%2Fe7XTpCGcIpwFUbzr89Gl%2B0IskNRF8qaGdc%3D#O|'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:46,148][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"login_flag":true,"is_show_qrcode":true,"face_check_code":"12","face_flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:46,148][    INFO] --- url: /otn/afterNate/getSuccessRate
+入参: OrderedDict([('successSecret', '1QZDI6mDu5OxMxMTz%2F73HofukTi3mW1bOVUCU5A%2BthU1yvNnv7iT0sJwdkqnOmi3%2BaGuCSrOLNec%0A2AM5NDUX%2Br9ZS8HXfNoPFGp6G8JPMZN%2Fd1CY39TFra0Dc4qKhO1ijbIFFJtmZ3AIKWfXdRF34rVa%0AHdbAbNVDcO1h1ek%2FuLwmkPnLjID7GMHq9PaDKpLW1HV2JOmmzZfX2NO1ZBYgL1sVOa4skP%2BWCRYq%0An7qWds6z54XXmZmLvO%2B3TAfFJyFu1Awe%2FUZ0%2Fe7XTpCGcIpwFUbzr89Gl%2B0IskNRF8qaGdc%3D#O'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:46,341][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":[{"level":"2","seat_type_code":"O","train_no":"6i00000G720H","start_train_date":"20210203","info":"候补人数中等"}]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:46,341][    INFO] --- url: /otn/afterNate/submitOrderRequest
+入参: OrderedDict([('secretList', '1QZDI6mDu5OxMxMTz%2F73HofukTi3mW1bOVUCU5A%2BthU1yvNnv7iT0sJwdkqnOmi3%2BaGuCSrOLNec%0A2AM5NDUX%2Br9ZS8HXfNoPFGp6G8JPMZN%2Fd1CY39TFra0Dc4qKhO1ijbIFFJtmZ3AIKWfXdRF34rVa%0AHdbAbNVDcO1h1ek%2FuLwmkPnLjID7GMHq9PaDKpLW1HV2JOmmzZfX2NO1ZBYgL1sVOa4skP%2BWCRYq%0An7qWds6z54XXmZmLvO%2B3TAfFJyFu1Awe%2FUZ0%2Fe7XTpCGcIpwFUbzr89Gl%2B0IskNRF8qaGdc%3D#O|'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:46,541][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:46,542][    INFO] --- url: /otn/afterNate/passengerInitApi
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:01:46,656][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"result_code":"0","checkcode":"100","limitTranStr":[],"jzdhDateE":"2021-02-02","jzdhDateS":"2021-01-07","jzdhHourE":"23:30","if_check_slide_passcode":"0","limitSeatType":{"3":[{"id":"1","value":"硬座"},{"id":"3","value":"硬卧"},{"id":"8","value":"二等软座"},{"id":"B","value":"混编硬座"},{"id":"C","value":"混编硬卧"},{"id":"O","value":"二等座"}],"2":[{"id":"1","value":"硬座"},{"id":"2","value":"软座"},{"id":"3","value":"硬卧"},{"id":"4","value":"软卧"},{"id":"5","value":"包厢硬卧"},{"id":"6","value":"高级软卧"},{"id":"7","value":"一等软座"},{"id":"8","value":"二等软座"},{"id":"9","value":"商务座"},{"id":"B","value":"混编硬座"},{"id":"C","value":"混编硬卧"},{"id":"E","value":"特等软座"},{"id":"H","value":"一人软包"},{"id":"K","value":"混编软座"},{"id":"I","value":"一等卧"},{"id":"J","value":"二等卧"},{"id":"L","value":"混编软卧"},{"id":"M","value":"一等座"},{"id":"O","value":"二等座"},{"id":"P","value":"特等座"},{"id":"Q","value":"多功能座"},{"id":"S","value":"二等包座"},{"id":"A","value":"高级动卧"},{"id":"F","value":"动卧"}],"1":[{"id":"1","value":"硬座"},{"id":"2","value":"软座"},{"id":"3","value":"硬卧"},{"id":"4","value":"软卧"},{"id":"5","value":"包厢硬卧"},{"id":"6","value":"高级软卧"},{"id":"7","value":"一等软座"},{"id":"8","value":"二等软座"},{"id":"9","value":"商务座"},{"id":"B","value":"混编硬座"},{"id":"C","value":"混编硬卧"},{"id":"E","value":"特等软座"},{"id":"H","value":"一人软包"},{"id":"K","value":"混编软座"},{"id":"I","value":"一等卧"},{"id":"J","value":"二等卧"},{"id":"L","value":"混编软卧"},{"id":"M","value":"一等座"},{"id":"O","value":"二等座"},{"id":"P","value":"特等座"},{"id":"Q","value":"多功能座"},{"id":"S","value":"二等包座"},{"id":"A","value":"高级动卧"},{"id":"F","value":"动卧"}],"4":[{"id":"1","value":"硬座"},{"id":"2","value":"软座"},{"id":"3","value":"硬卧"},{"id":"4","value":"软卧"},{"id":"5","value":"包厢硬卧"},{"id":"6","value":"高级软卧"},{"id":"7","value":"一等软座"},{"id":"8","value":"二等软座"},{"id":"9","value":"商务座"},{"id":"B","value":"混编硬座"},{"id":"C","value":"混编硬卧"},{"id":"E","value":"特等软座"},{"id":"H","value":"一人软包"},{"id":"K","value":"混编软座"},{"id":"I","value":"一等卧"},{"id":"J","value":"二等卧"},{"id":"L","value":"混编软卧"},{"id":"M","value":"一等座"},{"id":"O","value":"二等座"},{"id":"P","value":"特等座"},{"id":"Q","value":"多功能座"},{"id":"S","value":"二等包座"},{"id":"A","value":"高级动卧"},{"id":"F","value":"动卧"}]},"isLimitTran":"N","jzdhHourS":"21:01","hbTrainList":[{"start_city_code":"1505","houbu_train_flag":"1","lishi":"05:09","location_code":"Q6","from_station_no":"01","control_day":"29","day_difference":"0","sale_time":"1400","to_station_name":"武汉","station_train_code":"G72","to_station_no":"08","seat_type_name":"二等座","end_city_code":"0357","train_no":"6i00000G720H","from_station_telecode":"NZQ","yp_info":"O054350000M0846500009167250000","to_station_telecode":"WHN","seat_type_code":"O","from_station_name":"福田","train_date_str":"2021年2月3日","start_train_date":"20210203","start_station_telecode":"NZQ","arrive_time":"12:11","train_date":"2021-02-03","end_station_telecode":"BXP","start_time":"07:02"}],"hb_passenger_max_num":5},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:46,656][    INFO] --- url: /otn/afterNate/confirmHB
+入参: OrderedDict([('passengerInfo', '1#汤佳#1#4211***********536#9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6;'), ('jzParam', '2021-02-02#23#30'), ('hbTrain', '6i00000G720H,O#'), ('lkParam', '')])
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:01:46,901][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true,"trace_id":"C1_Y_6752932229189367730","isAsync":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:01:46,901][    INFO] --- url: /otn/afterNate/queryQueue
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:01:47,192][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true,"waitTime":0,"reserve_no":null,"status":0,"waitCount":0,"isAsync":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:32,387][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0'}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:32,660][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"汤佳","apptk":"QzksMyCE6JJ6WcrZfZHmb34tl3AHvn0lG3lGF5K8wIAqrT1T0","newapptk":"4jhln5FplGIP9IlDj8a_PJ0xBvPlWW3BnH88e-iOL8QsdT1T0"} (logger.py:61)
+[2021-01-07 21:11:32,665][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:32,905][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"汤佳","sex_code":"M","sex_name":"男","born_date":"1991-10-28 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"4211***********536","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"136****4026","phone_no":"","email":"57*****26@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"2","total_times":"99","index_id":"0","allEncStr":"9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"Y","is_buy_ticket":"N","last_time":"20140311","mobile_check_time":"","email_active_time":"20200918223055","last_update_time":"20200918223055","passenger_uuid":"be4bfbdcb36c82f2a3f630369c70a692f2cd4a2ae6a8ec7b6c228977b8cc113d","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"passenger_name":"贾慕熙","sex_code":"M","sex_name":"男","born_date":"1994-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3603***********020","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"138****1837","phone_no":"","email":"","address":"","postalcode":"","first_letter":"JMX","recordCount":"2","total_times":"99","index_id":"1","allEncStr":"0cb2d65193665fcfd29f0a2b2cd21d0fc53e8e0bb6a0aa5455056c17d12a360f607e03b91c43c53a2ab8f3273871c7aef8271ff8b6b6dd73f6c64c2da1fb3e3cd0796f5baba974f5da04069be9bbcc58","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20180913","mobile_check_time":"20200918223053","email_active_time":"20200918223053","last_update_time":"20200918223053","passenger_uuid":"65be091b3cdd7a6d39eafea36c79a8e0daee1fb9085a59ef34768e847c2de07c","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:35,665][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:36,790][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:37,379][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:37,681][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"汤佳","sex_code":"M","sex_name":"男","born_date":"1991-10-28 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"4211***********536","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"136****4026","phone_no":"","email":"57*****26@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"2","total_times":"99","index_id":"0","allEncStr":"9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"Y","is_buy_ticket":"N","last_time":"20140311","mobile_check_time":"","email_active_time":"20200918223055","last_update_time":"20200918223055","passenger_uuid":"be4bfbdcb36c82f2a3f630369c70a692f2cd4a2ae6a8ec7b6c228977b8cc113d","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"passenger_name":"贾慕熙","sex_code":"M","sex_name":"男","born_date":"1994-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3603***********020","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"138****1837","phone_no":"","email":"","address":"","postalcode":"","first_letter":"JMX","recordCount":"2","total_times":"99","index_id":"1","allEncStr":"0cb2d65193665fcfd29f0a2b2cd21d0fc53e8e0bb6a0aa5455056c17d12a360f607e03b91c43c53a2ab8f3273871c7aef8271ff8b6b6dd73f6c64c2da1fb3e3cd0796f5baba974f5da04069be9bbcc58","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20180913","mobile_check_time":"20200918223053","email_active_time":"20200918223053","last_update_time":"20200918223053","passenger_uuid":"65be091b3cdd7a6d39eafea36c79a8e0daee1fb9085a59ef34768e847c2de07c","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:37,682][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'mRSZUo0SiR+6ngeRvBH4gzV9lQ+KeYdeLTXUmHG8eCbyVvzK5bFQWXbobnWqK5V2UW9NybubjsHv\nciE4h0dRA2dSHTq+t4EQzYF3J5SdtymxoZjyPkt1Gfk0aszfQZUueBfS27PzZK2eOhTCYt99YHGp\nNXICS9Wq6dAaHg/ilox1T+6xYrZutA3pOZAiQAZ26J/T8buZziH0rG9cYMmPFW4VRrpX6pA3Ii5S\nL8dpjGSg5M+hNfHhcXQIl4YQ2iVvIZRqITsK7K2CaoIYvhkoSrfD8WjzV4t9tfTsWZawGv3ZT0cX\nK5qO1w=='), ('train_date', '2021-02-02'), ('back_train_date', '2021-01-07'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '深圳'), ('query_to_station_name', '武汉'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:37,975][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"0","messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:39,128][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('bed_level_order_num', '000000000000000000000000000000'), ('passengerTicketStr', 'M,0,1,汤佳,1,4211***********536,136****4026,N,9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6'), ('oldPassengerStr', '汤佳,1,4211***********536,1_'), ('tour_flag', 'dc'), ('randCode', ''), ('cancel_flag', 2), ('_json_att', ''), ('REPEAT_SUBMIT_TOKEN', '904fa83aaca7f7d2347c05bea5459505')])
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:39,507][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"PM","isCanChooseMid":"N","ifShowPassCodeTime":"1764","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:39,509][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Tue Feb 02 2021 00:00:00 GMT+0800 (中国标准时间)',)), ('train_no', ('6i000G10020D',)), ('stationTrainCode', ('G1002',)), ('seatType', ('M',)), ('fromStationTelecode', ('IOQ',)), ('toStationTelecode', ('WHN',)), ('leftTicket', ('Vm9Yf6YTziL4QULNmqqnM8OSTX%2FUPk%2BROlbzNij0om4WT%2FHN',)), ('purpose_codes', ('00',)), ('train_location', ('QX',)), ('REPEAT_SUBMIT_TOKEN', ('904fa83aaca7f7d2347c05bea5459505',))])
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:40,011][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"11","ticket":"37","op_2":"false","countT":"0","op_1":"true"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:41,779][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'passengerTicketStr': 'M,0,1,汤佳,1,4211***********536,136****4026,N,9d1deff1fac0831ccb5458fcc392ccc79adfc793a4108b9830b12815ad49bdebc7fb8ceab1fe01c10a045161679f346add45cfb7bbf4694cdc7c433ba68a87cbc0f82c5ee1e997516b868c1baa9bc7a6', 'oldPassengerStr': '汤佳,1,4211***********536,1_', 'purpose_codes': '00', 'key_check_isChange': '4C2E40F6B7B07381096A83110A3D8527830B3DFC4402BCA258FB0B58', 'leftTicketStr': 'Vm9Yf6YTziL4QULNmqqnM8OSTX%2FUPk%2BROlbzNij0om4WT%2FHN', 'train_location': 'QX', 'seatDetailType': '', 'roomType': '00', 'dwAll': 'N', 'whatsSelect': 1, '_json_at': '', 'randCode': '', 'choose_seats': '', 'REPEAT_SUBMIT_TOKEN': '904fa83aaca7f7d2347c05bea5459505'}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:11:42,122][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isAsync":"1","submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:42,122][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025102123&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:42,507][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:44,509][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025104510&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:44,689][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:46,690][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025106690&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:46,879][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:48,881][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025108882&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:49,357][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:51,361][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025111361&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:51,695][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:53,696][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025113696&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:53,975][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:55,981][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025115981&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:56,280][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:11:58,283][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025118283&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:11:58,558][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:00,558][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025120559&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:00,870][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:02,875][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025122875&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:03,115][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:05,120][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025125120&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:05,364][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:07,368][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025127369&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:07,608][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:09,609][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025129609&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:09,801][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:11,804][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025131804&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:12,037][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:14,040][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025134040&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:14,273][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:16,276][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025136276&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:16,604][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:18,604][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025138605&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:20,258][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:22,259][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025142259&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:22,491][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:24,497][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025144497&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:24,702][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:26,706][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025146707&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:26,963][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:28,966][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025148966&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:29,210][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:31,214][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025151214&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:31,465][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:33,469][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025153469&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:33,666][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:35,672][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025155672&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:35,936][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:37,940][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025157940&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:38,187][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:40,190][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025160190&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:40,429][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:42,432][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025162433&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:42,616][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:42,847][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2021-01-07 21:12:43,983][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:44,622][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025164622&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:45,083][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:47,084][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025167084&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:47,325][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:49,330][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025169331&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:49,559][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:51,565][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025171565&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:51,795][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:53,799][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025173799&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:54,051][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:56,056][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025176057&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:56,293][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:12:58,298][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025178298&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:12:58,542][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:00,548][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025180548&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:00,787][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:02,791][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025182791&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:03,157][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:05,160][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025185160&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:05,403][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:07,408][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025187408&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:07,874][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:09,878][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025189878&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:10,141][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:12,146][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025192147&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:12,464][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:14,465][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025194466&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:14,713][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:16,715][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025196716&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:16,962][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:18,965][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025198966&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:19,414][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:21,416][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025201416&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:21,601][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:23,605][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025203606&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:23,846][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:25,848][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025205849&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:26,150][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:28,152][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025208152&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:28,345][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:30,349][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025210349&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:30,609][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:32,611][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025212611&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:32,802][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:34,806][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025214806&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:35,145][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:37,148][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025217148&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:37,391][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:39,392][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025219392&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:39,642][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:41,645][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025221645&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:41,897][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:43,901][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025223901&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:44,159][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-100,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2021-01-07 21:13:46,165][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1610025226165&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2021-01-07 21:13:46,365][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6752934725722994610,"waitCount":0,"tourFlag":"dc","orderId":"E546231363"},"messages":[],"validateMessages":{}} (logger.py:61)
